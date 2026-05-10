@@ -471,13 +471,15 @@ export default function App() {
             }}
           >
             <div
+              onClick={() => setPage("landing")}
               style={{
                 fontFamily: "'Playfair Display', serif",
                 fontSize: 24,
-                fontWeight: 800,
+                fontWeight: 700,
+                cursor: "pointer",
               }}
             >
-              <span>Premium</span>
+              Premium
               <span style={{ color: "#C8A96E" }}>Bazaar</span>
             </div>
 
@@ -556,6 +558,7 @@ export default function App() {
                 India's #1 Premium Account Marketplace
               </div>
 
+
               <h1
                 style={{
                   fontFamily: "'Playfair Display', serif",
@@ -567,6 +570,8 @@ export default function App() {
                 Buy & Sell <br />
                 Premium Accounts
               </h1>
+
+
 
               <p
                 style={{
